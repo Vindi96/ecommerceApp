@@ -1,8 +1,15 @@
-<app-top-bar></app-top-bar>
-<div class="container">
-    <app-category-list></app-category-list>
-    <app-navigation></app-navigation>
+<div class="row">
+    <app-top-bar></app-top-bar>
 </div>
-<div class="col-md-6 container">
-    <app-image-carousel></app-image-carousel>
-</div>
+
+<div class="row">
+    <div class="col-sm-3 "><app-category-list></app-category-list></div>
+    <div class="col-sm-7 p-3">
+        <app-navigation></app-navigation>
+        <app-image-carousel></app-image-carousel>
+    </div>
+    <div class="col-sm-2">
+        <app-addvertisment-card></app-addvertisment-card>
+        <app-addvertisment-card1></app-addvertisment-card1>
+    </div>
+  </div>

@@ -1,0 +1,7 @@
+.card{
+    height: 200px;
+    background-image: linear-gradient(rgb(193, 81, 173), rgb(231, 134, 229), rgb(240, 175, 236));
+  }
+  .card img{
+    height: 200px;
+  }
